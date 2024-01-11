@@ -55,13 +55,6 @@ function addTodo() {
   saveToStorage();
 }
 
-/////////MAKE IT WORK!!!
-document.body.addEventListener('keydown', (event) => {
-  if (event === 'enter') {
-    addTodo();
-  }
-});
-
 function saveToStorage() {
   localStorage.setItem('todoList', JSON.stringify(todoList));
 }
