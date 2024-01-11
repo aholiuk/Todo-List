@@ -61,7 +61,5 @@ function saveToStorage() {
 
 function deleteTodoList(index) {
   todoList.splice(index, 1);
-  //const doneEarlier = document.querySelector('.js-done-earlier')
-  //  .innerHTML = 
   renderTodoList();
 }
